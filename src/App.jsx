@@ -18,13 +18,17 @@
   esto sucede porque cada elemento debe retornar un elemento de JSx.
 
 */
+import TituloPrincipal from './componets/TituloPrincipal/TituloPrincipal.jsx'
+import ItenCount from './componets/ItenCount/ItenCount.jsx'
 
 const App = () => {
   // Vamos a escribir la logica
   return (
     <>
-        {/* Vamos a renderizar la estructura */}
-        <h1> Repasando React.js </h1>
+      {/* Vamos a renderizar la estructura */}
+      <h1> Repasando React.js </h1>
+      <TituloPrincipal TituloPrincipal={'Hola!! Estoy repasando React.js con Samu'} esto = {' esto tendria que haberlo hecho antes!!  '} />
+      <ItenCount />
     </>
   )
 }
