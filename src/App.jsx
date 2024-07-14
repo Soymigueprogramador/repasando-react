@@ -18,8 +18,12 @@
   esto sucede porque cada elemento debe retornar un elemento de JSx.
 
 */
-import TituloPrincipal from './componets/TituloPrincipal/TituloPrincipal.jsx'
-import ItenCount from './componets/ItenCount/ItenCount.jsx'
+import TituloPrincipal from './componets/componentes1/TituloPrincipal/TituloPrincipal'
+import ItenCount from './componets/componentes1/ItenCount/ItenCount'
+import Contador from './componets/componentes2/Contador/Contador'
+import Categorias from './componets/componentes2/Categorias/Categorias'
+import UseRef from './componets/componentes2/useRef/UseRef'
+import Temporizador from './componets/componentes2/Temporizador/Temporizador'
 
 const App = () => {
   // Vamos a escribir la logica
@@ -29,6 +33,11 @@ const App = () => {
       <h1> Repasando React.js </h1>
       <TituloPrincipal TituloPrincipal={'Hola!! Estoy repasando React.js con Samu'} esto = {' esto tendria que haberlo hecho antes!!  '} />
       <ItenCount />
+      <Contador stock={100} inicial={1} />
+      <Contador stock={10} inicial={2} />
+      <Categorias categorias={['Alfajores', 'Yerba', 'Dulce de leche', 'Bebidas']} />
+      <UseRef />
+      <Temporizador />
     </>
   )
 }
