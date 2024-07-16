@@ -25,6 +25,11 @@ import Categorias from './componets/componentes2/Categorias/Categorias'
 import UseRef from './componets/componentes2/useRef/UseRef'
 import Temporizador from './componets/componentes2/Temporizador/Temporizador'
 
+import AsyncAwait from './componets/consumientoAPIs/AsincAwait/AsincAwait.jsx'
+import Api from './componets/consumientoAPIs/Api/Api.jsx'
+import OtraApi from './componets/consumientoAPIs/Api/OtraApi.jsx'
+import PeliApi from './componets/consumientoAPIs/Api/PeliApi.jsx'
+
 const App = () => {
   // Vamos a escribir la logica
   return (
@@ -38,6 +43,11 @@ const App = () => {
       <Categorias categorias={['Alfajores', 'Yerba', 'Dulce de leche', 'Bebidas']} />
       <UseRef />
       <Temporizador />
+
+      <AsyncAwait />
+      <Api />
+      <OtraApi />
+      <PeliApi />
     </>
   )
 }
