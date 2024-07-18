@@ -40,7 +40,11 @@ const PeliApi = () => {
         {peliculas.map((pelicula) => (
           <li key={pelicula.imdbID}>
             <img src={pelicula.Poster} alt={pelicula.Title} />
-            {pelicula.Title} ({pelicula.Year})
+            {pelicula.Title} 
+            {pelicula.Year}
+            {pelicula.Type}
+            {pelicula.imdbID}
+
           </li>
         ))}
       </ul>

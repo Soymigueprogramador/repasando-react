@@ -29,6 +29,7 @@ import AsyncAwait from './componets/consumientoAPIs/AsincAwait/AsincAwait.jsx'
 import Api from './componets/consumientoAPIs/Api/Api.jsx'
 import OtraApi from './componets/consumientoAPIs/Api/OtraApi.jsx'
 import PeliApi from './componets/consumientoAPIs/Api/PeliApi.jsx'
+import EmailJS from './componets/consumientoAPIs/Api/EmailJS.jsx'
 
 const App = () => {
   // Vamos a escribir la logica
@@ -48,6 +49,7 @@ const App = () => {
       <Api />
       <OtraApi />
       <PeliApi />
+      <EmailJS />
     </>
   )
 }

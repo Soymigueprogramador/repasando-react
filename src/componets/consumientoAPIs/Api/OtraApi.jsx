@@ -23,11 +23,11 @@ const OtraApi = () => {
       <h1>Esta es otra api</h1>
       <ul>
         {
-          usuarios.map((usuario) => {
+          usuarios.map((index) => {
             return (
-              <li key={usuario.id}>
+              <li key={index}>
                 
-                {usuario.image}
+                {index.image}
                 
                 
               </li>
