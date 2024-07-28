@@ -1,6 +1,5 @@
 // Componentes de orden superior.
 
-import { func } from "prop-types";
 
 // Patrones de diseño.
 /*
@@ -9,6 +8,18 @@ import { func } from "prop-types";
 // High order components ( Componentes de orden superior )
 /*
     Es una funcion que toma como argumento a un componente y devuelve un nuevo componente con funcionalidades adicionales.
+*/
+
+// Render props
+/* 
+    Con el render props vamos a poder seraparar las tareas en distintas funciones.
+    El renderizado se hace en una funcion secundaria y solo se llama para cuando se va a mostrarun contenido determinado.
+*/
+
+// Diverencias entre render props y componentes de orden superior
+/*
+    Tanto los render props como los componentes de orden superior son tecnicas avanzadas de en React que nos permiten reutilizar logica y 
+    abstraer comportamientos en nuestros componentes.
 */
 
 // Ejemplo 1

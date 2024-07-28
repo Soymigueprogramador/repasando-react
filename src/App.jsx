@@ -37,6 +37,7 @@ import RepasoHooks from './componets/WorkShop/RepasoHooks/RepasoHooks.jsx';
 import Mensaje from './componets/WorkShop/PatronesDeDiseño/Mensaje.jsx';
 import { MensajeConTitulo, ConUaumentos } from './componets/WorkShop/PatronesDeDiseño/Cos.jsx';
 import Productos from './componets/WorkShop/PatronesDeDiseño/Productos.jsx';
+import Login from './componets/WorkShop/PatronesDeDiseño/Login/Login.jsx'
 
 
 const App = () => {
@@ -80,6 +81,7 @@ const App = () => {
       <Mensaje />
       <NuevoComponente />
       <NuevoPrecio nombre='Facturas' precio={5000} />
+      <Login /> 
     </>
   );
 }
