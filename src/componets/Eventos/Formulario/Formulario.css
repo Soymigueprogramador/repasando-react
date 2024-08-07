@@ -1,0 +1,39 @@
+.general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-practic {
+    width: 600px;
+    height: 500px;
+    background-color: #000;
+    border: 5px solid blue;
+    border-radius: 3rem;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.indicacion {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.campo {
+    width: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 1rem; 
+}
+
+
+button {
+    width: 75px; 
+    height: 75px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
