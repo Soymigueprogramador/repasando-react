@@ -40,6 +40,7 @@ import Productos from './componets/WorkShop/PatronesDeDiseño/Productos.jsx';
 import Login from './componets/WorkShop/PatronesDeDiseño/Login/Login.jsx'
 import Eventos from './componets/Eventos/Eventos.jsx'
 import Formulario from './componets/Eventos/Formulario/Formulario.jsx'
+import Automatico from './componets/Eventos/Automatico/Automatico.jsx'
 
 
 const App = () => {
@@ -86,6 +87,7 @@ const App = () => {
       <Login /> 
       <Eventos />
       <Formulario />
+      <Automatico /> 
     </>
   );
 }

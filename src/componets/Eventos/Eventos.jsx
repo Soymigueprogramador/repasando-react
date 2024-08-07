@@ -34,8 +34,20 @@
     * onKeyDown ( Detecta cuando el usuario preciona una tecla )
     * onKeyUp ( Detecta cuando el usuario suelta una tecla )
     * onSubmit ( detecta cuando un formulario es enviado )
- * 
- */
+*/
+
+// windows.addEventListener()
+/*
+    Representa a todas las ventanas del navegador y nos permite trabajar con los eventos.
+    Dentro de los parentesis le tenemos que pasar 2 argumentos
+    1- Nomnre del evento
+    2- La funcion que va a ejecutarlo.
+*/
+
+// removeEventListener(
+/*
+    Despues que iniciamos un escuchador de eventor debemos removerlo para que no estemos permiendo memoria.
+*/
 
 import './caja.css'
 import { useState } from 'react'
