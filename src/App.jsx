@@ -35,10 +35,7 @@ import EmailJS from "./componets/consumientoAPIs/Api/EmailJS.jsx";
 import Articulos from "./componets/WorkShop/Articulos/Articulos.jsx";
 import RepasoHooks from "./componets/WorkShop/RepasoHooks/RepasoHooks.jsx";
 import Mensaje from "./componets/WorkShop/PatronesDeDiseño/Mensaje.jsx";
-import {
-  MensajeConTitulo,
-  ConUaumentos,
-} from "./componets/WorkShop/PatronesDeDiseño/Cos.jsx";
+import { MensajeConTitulo, ConUaumentos, } from "./componets/WorkShop/PatronesDeDiseño/Cos.jsx";
 import Productos from "./componets/WorkShop/PatronesDeDiseño/Productos.jsx";
 import Login from "./componets/WorkShop/PatronesDeDiseño/Login/Login.jsx";
 import Eventos from "./componets/Eventos/Eventos.jsx";
@@ -46,6 +43,11 @@ import Formulario from "./componets/Eventos/Formulario/Formulario.jsx";
 import Automatico from "./componets/Eventos/Automatico/Automatico.jsx";
 import Abuelo from "./componets/Context/Abuelo/Abuelo.jsx";
 import { contexto } from "./Context/Context.js";
+import Tecnica1 from "./componets/TecnicasRendering/TecnicaRepaso/Tecnica1.jsx";
+import Tecnica2 from "./componets/TecnicasRendering/TecnicaRepaso/Tecnica2.jsx";
+import Tecnica3 from "./componets/TecnicasRendering/TecnicaRepaso/Tecnica3.jsx";
+import EstilosCondicionales from "./componets/TecnicasRendering/EstilosCondicionales/EstilosCondicionales.jsx";
+import BotonCondiconal from './componets/TecnicasRendering/BotonCondiconal/BotonCondiconal.jsx'
 
 const App = () => {
   // Vamos a escribir la lógica
@@ -105,6 +107,11 @@ const App = () => {
       <contexto.Provider value={ herencia } >
        <Abuelo /> 
       </contexto.Provider>
+      <Tecnica1 nombre={'Miguel'} />
+      <Tecnica2 buleano={true} /> {/* Dependiendo de si es true o false va a mostrar el elemento correspondiente */}
+      <Tecnica3 buleano={false} /> {/* Funciona de la misma manera que el ejemplo anterior */}
+      <EstilosCondicionales buleano={true} clases={'nuevaClase'} /> {/* Le pasamos el buleano y la clase */}
+      <BotonCondiconal />
     </>
   );
 };
